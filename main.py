@@ -50,5 +50,6 @@ def delete_orders():
         if orders.__eq__('orderId')   == True:
             orders.child.attrib('orderID').remove()#If found remove the order from the book.
 
+show_orders()
 print ("end time:")
 print ( time.time())
